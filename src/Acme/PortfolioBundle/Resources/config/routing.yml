@@ -1,0 +1,9 @@
+
+
+portfolio_home:
+    path: /
+    defaults: { _controller: AcmePortfolioBundle:Home:index}
+
+portfolio_about:
+    path: /about
+    defaults: { _controller: AcmePortfolioBundle:Home:about}
